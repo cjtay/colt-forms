@@ -1,0 +1,45 @@
+.Form {
+    margin: 2rem;
+    padding: 1rem 2rem;
+    background-color: rgba(26, 26, 83, 0.61);
+    border-radius: 20px;
+}
+
+input:focus {
+    outline: none;
+}
+
+.Form label {
+    margin: 0 0.5rem;
+}
+.Form .title {
+    color: white;
+    margin: 0.5rem;
+}
+
+.Form input {
+    font-size: 1.5rem;
+    color: grey;
+}
+
+.Form button {
+    margin: 1rem 2rem;
+    width: 100px;
+    background-color: lightgrey;
+    border-radius: 5px;
+}
+
+.Form .display {
+    color: white;
+    font-size: 1rem;
+    font-weight: bold;
+    margin: 0.5rem auto;
+}
+
+.Form .input-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 200px;
+    margin: 0 auto;
+}
